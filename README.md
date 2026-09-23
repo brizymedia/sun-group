@@ -7,7 +7,8 @@ SNS 홍보 → 이 페이지 → 상담 신청으로 이어지는 한 장짜리 
 index.html          대문 한 장 (히어로 → 세 사업 → 썬그룹 → 올라이프케어 → 줄기세포 → 보험 → 파트너 → FAQ → 상담)
 assets/style.css    다크 네이비 + 골드 (태양라이프 랜딩 규격), Noto Sans KR + Playfair Display
 assets/app.js       메뉴·탭·등장 효과·상담 폼 (외부 라이브러리 없음)
-assets/img/         favicon.svg (og.jpg 는 아직 없음)
+assets/img/         favicon.svg · og.jpg(카톡 미리보기) · AI 생성 사진 10장(webp, Higgsfield Nano Banana 2, 글자 없는 장면만)
+_raw/               생성 원본 PNG (gitignore)
 ```
 
 ## 미리보기
