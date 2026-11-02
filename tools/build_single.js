@@ -20,7 +20,7 @@ css = css.replace(/url\((img\/[^)]+)\)/g, (m, p) => 'url(' + dataUri('assets/' +
 html = html.replace(/(src|href)="(assets\/img\/[^"]+)"/g, (m, attr, p) => attr + '="' + dataUri(p) + '"');
 // 링크 → 인라인
 html = html.replace('<link rel="stylesheet" href="assets/style.css">', '<style>\n' + css + '\n</style>');
-html = html.replace('<script src="assets/app.js"></script>', '<script>\n' + js + '\n</script>');
+html = html.replace('<script src="assets/app.js?v=20261102"></script>', '<script>\n' + js + '\n</script>');
 
 const out = path.join(ROOT, '썬그룹-홈페이지.html');
 fs.writeFileSync(out, html);
